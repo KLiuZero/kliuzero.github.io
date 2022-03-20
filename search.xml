@@ -5,8 +5,8 @@
     
     <entry>
       <title>Hello,World!</title>
-      <link href="/2022/03/19/Hello-World/"/>
-      <url>/2022/03/19/Hello-World/</url>
+      <link href="/post/db8976d7.html"/>
+      <url>/post/db8976d7.html</url>
       
         <content type="html"><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>之前一段时间折腾过Hexo，但是配置复杂，突然发现了Gridea这一款操作简单的GUI的博客工具，使用了很长的时间，当时随着博客的增长，普通的需求不在能够满足了，再加上眼馋Butterfly这款主题，就继续回来折腾Hexo博客了。</p><h1 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h1><p>目前的博客还在慢慢的迁移之中，所以还要很多事情需要去做</p><ul><li><input disabled="" type="checkbox"> 继续美化主题</li><li><input disabled="" type="checkbox"> 完善内容</li><li><input disabled="" type="checkbox"> 迁移Gridea的文章到本博客之中</li><li><input disabled="" type="checkbox"> 完善之前的没有写完的博客内容</li></ul><h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>宇宙很大，生活更大，在这里记录下不一样的生活与不同的世界。</p>]]></content>
       
