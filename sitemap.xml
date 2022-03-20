@@ -268,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://kliuzero.github.io/tags/Test/</loc>
+    <loc>https://kliuzero.github.io/tags/Windows/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kliuzero.github.io/tags/Windows/</loc>
+    <loc>https://kliuzero.github.io/tags/Test/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -333,13 +333,6 @@
   </url>
   
   <url>
-    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
-    <lastmod>2022-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/Windows/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -361,7 +354,7 @@
   </url>
   
   <url>
-    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -375,7 +368,7 @@
   </url>
   
   <url>
-    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/Windows/%E5%8A%A0%E5%AF%86/</loc>
+    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -383,6 +376,13 @@
   
   <url>
     <loc>https://kliuzero.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kliuzero.github.io/categories/%E6%8A%80%E6%9C%AF/Windows/%E5%8A%A0%E5%AF%86/</loc>
     <lastmod>2022-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
