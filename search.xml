@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Teamspeak3服务器搭建</title>
+      <link href="/post/2e582926.html"/>
+      <url>/post/2e582926.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是TeamSpeak3"><a href="#什么是TeamSpeak3" class="headerlink" title="什么是TeamSpeak3"></a>什么是TeamSpeak3</h1><p>Teamspeak（简称TS）是一款团队语音通讯工具，比普通的通讯工具具有更多的功能，相比国内的yy语音等界面更简洁更易用。你只需下载客户端即可登录已经搭设好的ts服务器。</p><h2 id="客户端下载"><a href="#客户端下载" class="headerlink" title="客户端下载"></a>客户端下载</h2><p><a href="https://teamspeak.com/zh-CN/downloads/"><strong>点击我下载</strong></a></p><h2 id="服务器搭建"><a href="#服务器搭建" class="headerlink" title="服务器搭建"></a>服务器搭建</h2><h3 id="我的服务器配置"><a href="#我的服务器配置" class="headerlink" title="我的服务器配置"></a>我的服务器配置</h3><ol><li>提供商：腾讯云</li><li>服务器：1G2核心，5M轻量级，40G的SSD，CentOS7_x64</li></ol><h3 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h3><p>安装系统升级包:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum update</span><br></pre></td></tr></table></figure><p>开启防火墙端口：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">9987/9987 udp</span><br><span class="line"></span><br><span class="line">10011/10011 tcp</span><br><span class="line"></span><br><span class="line">30033/30033 tcp</span><br></pre></td></tr></table></figure><p>创建一个新用户：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd teamspeak</span><br></pre></td></tr></table></figure><p>将服务器段文件上传至root文件夹下：[<a href="https://teamspeak.com/zh-CN/downloads/#server">下载地址</a>]</p><p>解压ts3服务器文件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar -xvf teamspeak3-server_linux_amd64-3133.tar.bz2</span><br><span class="line"></span><br><span class="line"><span class="built_in">mv</span> teamspeak3-server_linux_amd64 teamspeak3</span><br></pre></td></tr></table></figure><p>给与用户权限：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -R teamspeak3 /home/teamspeak/</span><br><span class="line"></span><br><span class="line"><span class="built_in">chown</span> -R teamspeak:teamspeak /home/teamspeak/teamspeak3/</span><br></pre></td></tr></table></figure><p>切换操作者并运行服务器文件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">su - teamspeak</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> teamspeak3</span><br><span class="line"></span><br><span class="line"><span class="built_in">touch</span> .ts3server_license_accepted</span><br><span class="line"></span><br><span class="line">./ts3server_startscript.sh start</span><br></pre></td></tr></table></figure><p>运行成功如下所示，将token保存下来到客户端运行时使用。</p><p><img src="https://gitee.com/foreverloveljj/notion-image/raw/master/img/Teamspeak3.png" alt="https://gitee.com/foreverloveljj/notion-image/raw/master/img/Teamspeak3.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 - Linux服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello,World!</title>
       <link href="/post/db8976d7.html"/>
       <url>/post/db8976d7.html</url>
