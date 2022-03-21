@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>机器学习-模型的评估和选择</title>
+      <link href="/post/1d39bf4f.html"/>
+      <url>/post/1d39bf4f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="误差和过拟合"><a href="#误差和过拟合" class="headerlink" title="误差和过拟合"></a>误差和过拟合</h1><h2 id="误差"><a href="#误差" class="headerlink" title="误差"></a>误差</h2><ul><li>训练集上的误差称为<strong>训练误差</strong>或<strong>经验误差</strong></li><li>测试集上的误差称为<strong>测试误差</strong></li><li>学习器在所有新样本上的误差称为<strong>泛化误差</strong></li></ul><h2 id="过拟合和欠拟合"><a href="#过拟合和欠拟合" class="headerlink" title="过拟合和欠拟合"></a>过拟合和欠拟合</h2><ul><li><strong>过拟合（也称为高方差）：</strong>即模型完美的匹配了已知的数据，但是对新的数据的预测有较大的偏差。（学习能力过强，以至于把训练样本所包含的不太一般的特性都学到了）</li><li><strong>欠拟合（也称为高偏差）：</strong>即模型对现有的数据高度不匹配。（学习能太差，训练样本的一般性质尚未学好）</li></ul><div class="note blue icon flat"><i class="note-icon fas fa-fan"></i><p>欠拟合：误认为绿色的都是树叶<br>过拟合：误认为树叶必须有锯齿状边缘</p></div><h2 id="训练集和测试集的划分方法"><a href="#训练集和测试集的划分方法" class="headerlink" title="训练集和测试集的划分方法"></a>训练集和测试集的划分方法</h2><ol><li><p>留出法</p><ol><li>将数据集划分为互斥的两个部分，一部分是训练集，一部分是测试集<br>  <img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/liuchufai.png" alt=""></li><li>划分时要尽量保证训练集和测试集数据分布的一致性，例如在分类样本中有1000个正样本，100个负样本，那么训练集和测试集中的正负样本比例也要基本遵循10：1这个比例</li><li>为了保证划分结果的随机性，可以将数据集多次随机划分，然后对多次划分结果取平均值</li><li>训练集和测试集的划分比例没有固定的值，通常将大约2/3~4/5的样本用于训练，最常见的训练集测试集比例有7：3或8：2</li></ol></li><li><p>交叉验证法</p><ol><li>先将数据集划分为k个大小相似的互斥子集，每个子集尽可能保持数据分布的一致性</li><li>然后每次选k-1个子集一组作为训练集，剩下一个子集作为测试集，共有k种分发得到k组训练集和测试集</li><li><p>进行k此训练和测试，对结果取平均值</p><p>交叉验证法评估结果的稳定性和保真性在很大程度上取决于k的取值，为了强调这一点，通常把交叉验证法称为”k折交叉验证”（k-fold cross validation），k通常取10—10折交叉验证。</p><p><img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/jiaochayanzhen.jpg" alt=""></p><p>交叉验证的好处就是从有限的数据中尽可能挖掘多的信息，从各种角度去学习我们现有的有限的数据，避免出现局部的极值。缺点就是，当数据集比较大时，训练模型的开销较大</p></li></ol></li><li><p>自助法</p><ol><li>每次随机从数据集（有m个样本）抽取一个样本，然后再放回（也就是说可能被重复抽出），m次后得到有m个样本的数据集，将其作为训练集</li><li><p>通过概率计算，经过m次抽样后会有约1/3的样本，始终不会被抽到，这部分数据可以用来测试</p><script type="math/tex; mode=display">\lim_{n \rightarrow \infty} (1 - \frac{1}{m})^m \rightarrow \frac{1}{e} \approx 0.368</script><p>自助法产生的测试集改变了初始数据集的分布，这会引入误差，因此在数据量足够时，采用留出法和交叉验证法较好</p></li></ol></li></ol><h2 id="性能度量"><a href="#性能度量" class="headerlink" title="性能度量"></a>性能度量</h2><p>在<strong>回归任务</strong>中，最常用的性能度量是“均方误差”：</p><script type="math/tex; mode=display">E(f;D) = \frac{1}{m} \sum_{i = 1}^{m}{(f(x_i)-y_i)^2}</script><p>更一般的，对于数据分布$D$和概率函数$p(·)$，均方误差可描述为：</p><script type="math/tex; mode=display">E(f;D) = \int_{x \approx D} (f(x)-y)^2 p(x) {\rm d}x</script><p>在<strong>分类任务</strong>中，最常用的是错误率和精度，错误率是分类错误的样本数占样本总数的比例，精度则是分类正确的样本数占样本总数的比例： <span style="background-color: #DFF6FF;">错误率 + 进度 = 1</span>。</p><p>错误率定义为：</p><script type="math/tex; mode=display">E(f;D) = \frac{1}{m} \sum_{i = 1}^{m}{Ⅱ(f(x_i) \neq y_i)}</script><ul><li>$Ⅱ(f(x_i) \neq y_i)$是指如果$f(x_i) = y_i$则等于0，否则为1。</li></ul><p>精度定义为：</p><script type="math/tex; mode=display">acc(f;D) = \frac{1}{m} \sum_{i = 1}^{m}{Ⅱ(f(x_i) = y_i)} = 1 - E(f;D)</script><p>更一般的，对于数据分布$D$和概率密度函数$p(·)$，错误率和精度可分别描述为：</p><script type="math/tex; mode=display">E(f;D) = \int_{x \approx D} Ⅱ(f(x_i) \neq y_i) p(x) {\rm d}x</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 机器学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>交通灯</title>
       <link href="/post/ef0dd315.html"/>
       <url>/post/ef0dd315.html</url>
@@ -58,11 +85,11 @@
     
     
     <entry>
-      <title>高等数学水平自测一</title>
-      <link href="/post/5f549694.html"/>
-      <url>/post/5f549694.html</url>
+      <title>高等数学水平自测二</title>
+      <link href="/post/64d4b83d.html"/>
+      <url>/post/64d4b83d.html</url>
       
-        <content type="html"><![CDATA[<ol><li><p>$\int^1_e\ln x {\rm d}x = 1$<br> 用的的公式为：$\int^a_b u {\rm d}v = uv |^a_b - \int^a_b v {\rm d}u$</p></li><li><p>幂级数的收敛半径问题（查找中）</p></li><li><p>二重积分的问题：$\int<em>{0}^{1} {\rm d}x\int</em>{e^x}^{e}f(x,y){\rm d}y = \int<em>{1}^{e}{\rm d}y\int</em>{0}^{\ln y}f(x,y){\rm d}x$<br>画图解决问题：<img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/Snipaste_2022-03-12_16-16-40.png" alt=""></p></li></ol>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
@@ -85,11 +112,11 @@
     
     
     <entry>
-      <title>高等数学水平自测二</title>
-      <link href="/post/64d4b83d.html"/>
-      <url>/post/64d4b83d.html</url>
+      <title>高等数学水平自测一</title>
+      <link href="/post/5f549694.html"/>
+      <url>/post/5f549694.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ol><li><p>$\int^1_e\ln x {\rm d}x = 1$<br> 用的的公式为：$\int^a_b u {\rm d}v = uv |^a_b - \int^a_b v {\rm d}u$</p></li><li><p>幂级数的收敛半径问题（查找中）</p></li><li><p>二重积分的问题：$\int<em>{0}^{1} {\rm d}x\int</em>{e^x}^{e}f(x,y){\rm d}y = \int<em>{1}^{e}{\rm d}y\int</em>{0}^{\ln y}f(x,y){\rm d}x$<br>画图解决问题：<img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/Snipaste_2022-03-12_16-16-40.png" alt=""></p></li></ol>]]></content>
       
       
       <categories>
@@ -170,7 +197,7 @@
       <link href="/post/39787a22.html"/>
       <url>/post/39787a22.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>写在开头：由于刚开始学机器学习这门课，还有很多并不完美的地方，希望各位在评论区指正讨论🥳<br>推荐一个优秀的网站：<a href="https://tjxj.github.io" target="_blank">https://tjxj.github.io</a><br>更好的排版体验在这：<a href="https://ustsking.notion.site/60029ee34e554007aa98f9fa38eca1b5" target="_blank">Notion笔记-机器学习</a></p></blockquote><h1 id="什么是机器学习"><a href="#什么是机器学习" class="headerlink" title="什么是机器学习"></a>什么是机器学习</h1><ul><li><strong>Arthur Samuel</strong>：在没有明确设置的情况下，使计算机具有学习领域的能力</li><li><strong>Tom Mitchell</strong>：计算机程序从经验E中学习，解决某一任务T进行某一性能度量P，通过P测定在T上的表现因经验E而提高</li></ul><p>机器学习最重要的两个东西：</p><ol><li><strong>数据：</strong> 有数据才能训练程序，数据质量高，数量大$\rightarrow$训练出好模型的<span style="background-color: #DFF6FF;">钥匙</span></li><li><strong>模型：</strong> 就是算法。特定的模型能够完成特定的任务。</li></ol><h1 id="机器学习分类"><a href="#机器学习分类" class="headerlink" title="机器学习分类"></a>机器学习分类</h1><p>机器学习大体上可以分为两类，一类是<strong>监督学习</strong>，一类是<strong>无监督学习</strong>。<br>顾名思义，有监督学习就是<strong>通过大量已知的输入和输出相配对的数据（有标记的数据）</strong>，让计算机从中学习规律，从而能针对新的输入做出合理的输出预测。无监督学习就是给计算机<strong>大量的无标记的输入数据</strong>，去分析它们内在的结构以及联系，从而去把这些数据自动分类，这就叫做<strong>聚类</strong>。<br>细分下去，有监督学习可以分为两种。一种是<strong>回归学习</strong>，即输出的结果是一个连续的函数（比如给了一些列的点，让计算机通过回归学习找到拟合这些点的曲线）；另外一种就是<strong>分类学习</strong>，即输出的结果是<strong>离散的</strong>（比如说判断癌细胞是不是良性：1是良性，0不是良性）</p><h1 id="机器学习开发的基本步骤"><a href="#机器学习开发的基本步骤" class="headerlink" title="机器学习开发的基本步骤"></a>机器学习开发的基本步骤</h1><ul><li>数据的采集和标记</li><li>数据的清洗：将数据单位进行统一</li><li>特征选择：除去无用的特征，选出有用的特征给模型进行训练</li><li>模型选择</li><li>模型训练+测试：数据一般通过<span style="background-color: #DFF6FF;">8：2</span>进行划分</li><li>模型优化</li></ul>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>写在开头：由于刚开始学机器学习这门课，还有很多并不完美的地方，希望各位在评论区指正讨论🥳</p><p>推荐一个优秀的网站：<a href="https://tjxj.github.io" target="_blank">https://tjxj.github.io</a></p><p>更好的排版体验在这：<a href="https://ustsking.notion.site/60029ee34e554007aa98f9fa38eca1b5" target="_blank">Notion笔记-机器学习</a></p></blockquote><h1 id="什么是机器学习"><a href="#什么是机器学习" class="headerlink" title="什么是机器学习"></a>什么是机器学习</h1><ul><li><strong>Arthur Samuel</strong>：在没有明确设置的情况下，使计算机具有学习领域的能力</li><li><strong>Tom Mitchell</strong>：计算机程序从经验E中学习，解决某一任务T进行某一性能度量P，通过P测定在T上的表现因经验E而提高</li></ul><p>机器学习最重要的两个东西：</p><ol><li><strong>数据：</strong> 有数据才能训练程序，数据质量高，数量大$\Rightarrow$训练出好模型的<span style="background-color: #DFF6FF;">钥匙</span></li><li><strong>模型：</strong> 就是算法。特定的模型能够完成特定的任务。</li></ol><h1 id="机器学习分类"><a href="#机器学习分类" class="headerlink" title="机器学习分类"></a>机器学习分类</h1><p>机器学习大体上可以分为两类，一类是<strong>监督学习</strong>，一类是<strong>无监督学习</strong>。</p><p>顾名思义，有监督学习就是<strong>通过大量已知的输入和输出相配对的数据（有标记的数据）</strong>，让计算机从中学习规律，从而能针对新的输入做出合理的输出预测。无监督学习就是给计算机<strong>大量的无标记的输入数据</strong>，去分析它们内在的结构以及联系，从而去把这些数据自动分类，这就叫做<strong>聚类</strong>。</p><p>细分下去，有监督学习可以分为两种。一种是<strong>回归学习</strong>，即输出的结果是一个连续的函数（比如给了一些列的点，让计算机通过回归学习找到拟合这些点的曲线）；另外一种就是<strong>分类学习</strong>，即输出的结果是<strong>离散的</strong>（比如说判断癌细胞是不是良性：1是良性，0不是良性）</p><h1 id="机器学习开发的基本步骤"><a href="#机器学习开发的基本步骤" class="headerlink" title="机器学习开发的基本步骤"></a>机器学习开发的基本步骤</h1><ul><li>数据的采集和标记</li><li>数据的清洗：将数据单位进行统一</li><li>特征选择：除去无用的特征，选出有用的特征给模型进行训练</li><li>模型选择</li><li>模型训练+测试：数据一般通过<span style="background-color: #DFF6FF;">8：2</span>进行划分</li><li>模型优化</li></ul><h1 id="机器学习的基本术语"><a href="#机器学习的基本术语" class="headerlink" title="机器学习的基本术语"></a>机器学习的基本术语</h1><ul><li>数据集：所有纪录的集合</li><li>实例（样本）：每一条记录</li><li>特征（属性）：西瓜的色泽，根蒂等</li><li>特征向量：对于每一条记录，都可以在坐标轴中的一个点表示</li><li>维度：一个样本的特征数（<strong>维度灾难：维度非常大的时候</strong>）</li><li>训练集（特殊）：所有训练样本的集合</li><li>测试集（一般）：所有测试样本的集合</li><li>范化能力：机器学习所训练的模型对于新样本的适应能力（即从特殊到一般）</li><li>分类：预测值为离散值的问题</li><li>回归：预测值为连续值的问题</li><li>监督学习：训练数据有标记信息的学习任务（分类和回归问题都是监督学习）</li><li>无监督学习：训练数据没有标记信息的学习任务</li></ul>]]></content>
       
       
       <categories>
