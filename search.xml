@@ -58,33 +58,6 @@
     
     
     <entry>
-      <title>高等数学水平自测一</title>
-      <link href="/post/5f549694.html"/>
-      <url>/post/5f549694.html</url>
-      
-        <content type="html"><![CDATA[<ol><li><p>$\int^1_e\ln x {\rm d}x = 1$<br> 用的的公式为：$\int^a_b u {\rm d}v = uv |^a_b - \int^a_b v {\rm d}u$</p></li><li><p>幂级数的收敛半径问题（查找中）</p></li><li><p>二重积分的问题：$\int<em>{0}^{1} {\rm d}x\int</em>{e^x}^{e}f(x,y){\rm d}y = \int<em>{1}^{e}{\rm d}y\int</em>{0}^{\ln y}f(x,y){\rm d}x$<br>画图解决问题：<img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/Snipaste_2022-03-12_16-16-40.png" alt=""></p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>高等数学660题</title>
       <link href="/post/5b4df50f.html"/>
       <url>/post/5b4df50f.html</url>
@@ -117,6 +90,33 @@
       <url>/post/64d4b83d.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高等数学水平自测一</title>
+      <link href="/post/5f549694.html"/>
+      <url>/post/5f549694.html</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>$\int^1_e\ln x {\rm d}x = 1$<br> 用的的公式为：$\int^a_b u {\rm d}v = uv |^a_b - \int^a_b v {\rm d}u$</p></li><li><p>幂级数的收敛半径问题（查找中）</p></li><li><p>二重积分的问题：$\int<em>{0}^{1} {\rm d}x\int</em>{e^x}^{e}f(x,y){\rm d}y = \int<em>{1}^{e}{\rm d}y\int</em>{0}^{\ln y}f(x,y){\rm d}x$<br>画图解决问题：<img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/Snipaste_2022-03-12_16-16-40.png" alt=""></p></li></ol>]]></content>
       
       
       <categories>
