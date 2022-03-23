@@ -299,6 +299,13 @@
 
   
   <url>
+    <loc>https://blog.ustsking.top/tags/Test/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ustsking.top/tags/Hello/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -313,7 +320,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/tags/Test/</loc>
+    <loc>https://blog.ustsking.top/tags/Linux/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -321,13 +328,6 @@
   
   <url>
     <loc>https://blog.ustsking.top/tags/Windows/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/tags/Linux/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -371,6 +371,13 @@
 
   
   <url>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ustsking.top/categories/%E6%96%B0%E4%BA%8B%E7%89%A9/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -378,7 +385,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -400,13 +407,6 @@
   
   <url>
     <loc>https://blog.ustsking.top/categories/%E6%B8%B8%E6%88%8F%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2022-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
     <lastmod>2022-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
