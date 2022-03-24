@@ -116,65 +116,11 @@
     
     
     <entry>
-      <title>高等数学660题-1~50题</title>
-      <link href="/post/5b4df50f.html"/>
-      <url>/post/5b4df50f.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>写在前面：一些常用的等价代换公式<br>$当x \rightarrow 0 时$<br>$\sin x$ ~ $x$, $\tan x$ ~ $x$, $\arcsin x$ ~ $x$<br>$1 - \cos x$ ~ $\frac{x^2}{2}$<br>$e^x - 1$ ~ $x$, $a^x - 1$ ~ $x \ln a$<br>$\ln (1+x)$ ~ $x$<br>$\sqrt[n]{1+x}$ ~ $\frac{x}{n}$<br>$(1+x)^a - 1$ ~ $ax$</p></blockquote><aside>📌 题目6：$$（泰勒公式）I = \lim_{x \rightarrow 0} \frac{x \sin x^2 - 2(1 - \cos x)\sin x}{x^2}$$</aside><aside>💡解答：$$\sin x = x - \frac{1}{6} x^3 + \omicron(x^4)$$$$x \sin x^2 = x(x^2 + \omicron(x^4))$$$$-2 \sin x = -2(x - \frac{1}{6}x^3 + \omicron(x^4))$$$$\sin 2x = 2x - \frac{1}{6}(2x)^3 + \omicron(x^4)$$$$相加得0 + \omicron(x^4)$$$$I = \lim_{x \rightarrow 0} \frac{\omicron(x^4)}{x^4} = 0$$</aside><p>📑<span style="background-color: #c8d9eb;" ><font color="ee712b">重点：</font></span></p><ol><li>泰勒公式：</li><li>拉格朗日定理：</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>高等数学水平自测一</title>
       <link href="/post/5f549694.html"/>
       <url>/post/5f549694.html</url>
       
         <content type="html"><![CDATA[<ol><li><p>$\int^1_e\ln x {\rm d}x = 1$<br> 用的的公式为：$\int^a_b u {\rm d}v = uv |^a_b - \int^a_b v {\rm d}u$</p></li><li><p>幂级数的收敛半径问题（查找中）</p></li><li><p>二重积分的问题：$\int<em>{0}^{1} {\rm d}x\int</em>{e^x}^{e}f(x,y){\rm d}y = \int<em>{1}^{e}{\rm d}y\int</em>{0}^{\ln y}f(x,y){\rm d}x$<br>画图解决问题：<img src="https://cdn.jsdelivr.net/gh/KLiuZero/TyporaImage@main/Gridea/Snipaste_2022-03-12_16-16-40.png" alt=""></p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Learning </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>高等数学水平自测二</title>
-      <link href="/post/64d4b83d.html"/>
-      <url>/post/64d4b83d.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
