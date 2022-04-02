@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.ustsking.top/sitemap.xml
+Sitemap: https://blog.ustsking.top/baidusitemap.xml
