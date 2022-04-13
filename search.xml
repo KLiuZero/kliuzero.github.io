@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Twitch 掉包脚本的使用</title>
+      <link href="/post/6439daca.html"/>
+      <url>/post/6439daca.html</url>
+      
+        <content type="html"><![CDATA[<div class="tip warning"><ol><li>脚本运行首先要保证可以正常访问Twich，即科学上网，因为脚本不会走加速器的代理。</li><li>其次脚本基于Nodejs，所以要保证电脑上已经安装了nodejs。</li><li>还要保证是Google Chrome浏览器</li></ol></div><h2 id="下载脚本">下载脚本</h2><div class="tag link"><a class="link-card" title="脚本下载地址" href="https://github.com/AlexSterk/TwitchDropGrabber"><div class="left"><img src="https://i.imgtg.com/2022/03/31/b3rkL.jpg"/></div><div class="right"><p class="text">脚本下载地址</p><p class="url">https://github.com/AlexSterk/TwitchDropGrabber</p></div></a></div><h2 id="运行脚本">运行脚本</h2><ol><li>解压文件</li><li>在解压的文件夹内打开终端</li><li>执行以下命令</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line"></span><br><span class="line">npm run build</span><br><span class="line"></span><br><span class="line"># &lt;GAME&gt;为游戏名</span><br><span class="line">npm start -- &lt;GAME&gt;</span><br></pre></td></tr></table></figure><h2 id="环境变量的设置">环境变量的设置</h2><ol><li>将文件内的.env.example文件重命名为.env</li><li>用记事本打开</li><li>在TWITCH_AUTH_TOKEN处填写你所获得的token</li><li>在TWITCH_CHROME_EXECUTABLE处填写Chrome浏览器的地址，注意要用&quot;&quot;包含起来</li></ol><img no-lazy src="https://i.imgtg.com/2022/04/13/k9rii.png"><h2 id="token获取">token获取</h2><ol><li>先登录Twitch</li><li>调出控制台(按F12)</li><li>按下图步骤复制Token</li></ol><img no-lazy src="https://i.imgtg.com/2022/04/13/k9AtX.png">]]></content>
+      
+      
+      <categories>
+          
+          <category> 游戏配置 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>英语六级</title>
       <link href="/post/aefc478f.html"/>
       <url>/post/aefc478f.html</url>
@@ -224,7 +249,7 @@
       <link href="/post/747f4f79.html"/>
       <url>/post/747f4f79.html</url>
       
-        <content type="html"><![CDATA[<h1>短句</h1><ol><li>我寻了一生的春天，你一笑便是了。</li><li>像太阳下山，电线杆上的灯和月微微发亮，我对你的喜欢，是一种温柔的坠落。</li><li>我想在黄昏上写上一封书信，载着落日的余晖和银河的浪漫，寄给你，寄给温柔本身。</li><li>岁月本长，而忙者自促；天地本宽，而鄙者自隘；风花雪月本闲，而攘者自冗。</li></ol><h1>宫崎骏</h1><ol><li>世界这么大，人生这么长，总会有这么一个人，让你想要温柔地对待。 ----《哈尔的移动城堡》</li><li>我说不出来为什么爱你，但我知道，你是我不爱别人的理由。 ----《虞美人盛开的山坡》</li><li>你住的城市下雨了，很想问你有没有带伞，可是我忍住了，因为我怕你说没带，而我又无能为力，就像我爱你却给不到你想要的陪伴。</li><li>带上信仰，去寻找属于你自己的国度吧，哪怕倾其一生。</li><li>为了你，我会成为一个更好的人，发奋努力，成为一个与你相配的人。 ----《侧耳倾听》</li><li>纵有疾风起，人生不言弃。 ----《起风了》</li><li>不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。 ----《千与千寻》</li><li>生活坏到一定程度就会好起来，因为它无法更坏。努力过后，才知道许多事情，坚持坚持，就过来了。 ----《龙猫》</li><li>我不知道我又多喜欢你，但是如果我要去见你，我一定用跑的。</li><li>不管你曾经被伤害得有多深，总有一个人的出现，让你原谅之前生活对你所有的刁难。  ----《幽灵公主》</li></ol><h1>人间浪漫</h1><ol><li>四方食事，不过一碗人间烟火。 ----汪曾祺</li><li>玫瑰你拿才好看，大海和你才浪漫。</li><li>日落尤其温柔，人间皆是浪漫。</li></ol><h1>视频</h1><iframe src="//player.bilibili.com/player.html?aid=724702892&bvid=BV1wS4y1D7if&cid=547503289&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content>
+        <content type="html"><![CDATA[<h1>短句</h1><ol><li>我寻了一生的春天，你一笑便是了。</li><li>像太阳下山，电线杆上的灯和月微微发亮，我对你的喜欢，是一种温柔的坠落。</li><li>我想在黄昏上写上一封书信，载着落日的余晖和银河的浪漫，寄给你，寄给温柔本身。</li><li>岁月本长，而忙者自促；天地本宽，而鄙者自隘；风花雪月本闲，而攘者自冗。</li><li>若批评不自由，则赞美毫无意义。</li></ol><h1>宫崎骏</h1><ol><li>世界这么大，人生这么长，总会有这么一个人，让你想要温柔地对待。 ----《哈尔的移动城堡》</li><li>我说不出来为什么爱你，但我知道，你是我不爱别人的理由。 ----《虞美人盛开的山坡》</li><li>你住的城市下雨了，很想问你有没有带伞，可是我忍住了，因为我怕你说没带，而我又无能为力，就像我爱你却给不到你想要的陪伴。</li><li>带上信仰，去寻找属于你自己的国度吧，哪怕倾其一生。</li><li>为了你，我会成为一个更好的人，发奋努力，成为一个与你相配的人。 ----《侧耳倾听》</li><li>纵有疾风起，人生不言弃。 ----《起风了》</li><li>不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。 ----《千与千寻》</li><li>生活坏到一定程度就会好起来，因为它无法更坏。努力过后，才知道许多事情，坚持坚持，就过来了。 ----《龙猫》</li><li>我不知道我又多喜欢你，但是如果我要去见你，我一定用跑的。</li><li>不管你曾经被伤害得有多深，总有一个人的出现，让你原谅之前生活对你所有的刁难。  ----《幽灵公主》</li></ol><h1>人间浪漫</h1><ol><li>四方食事，不过一碗人间烟火。 ----汪曾祺</li><li>玫瑰你拿才好看，大海和你才浪漫。</li><li>日落尤其温柔，人间皆是浪漫。</li></ol><h1>视频</h1><iframe src="//player.bilibili.com/player.html?aid=724702892&bvid=BV1wS4y1D7if&cid=547503289&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content>
       
       
       <categories>
