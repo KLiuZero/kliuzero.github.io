@@ -407,6 +407,13 @@
 
   
   <url>
+    <loc>https://blog.ustsking.top/tags/Learning/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ustsking.top/tags/Hello/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -415,13 +422,6 @@
   
   <url>
     <loc>https://blog.ustsking.top/tags/Hexo/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/tags/Learning/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -486,14 +486,14 @@
 
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E6%96%B0%E4%BA%8B%E7%89%A9/</loc>
+    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.ustsking.top/categories/%E6%96%B0%E4%BA%8B%E7%89%A9/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -556,14 +556,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E5%A4%8D%E4%B9%A0/</loc>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E5%A4%8D%E4%B9%A0/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -577,14 +577,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -592,13 +585,6 @@
   
   <url>
     <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-04-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -619,7 +605,21 @@
   </url>
   
   <url>
+    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/%E8%AF%97%E4%B8%8E%E8%AF%9D/</loc>
+    <lastmod>2022-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/%E3%80%8A%E9%A3%8E%E6%B5%81%E5%8E%BB%E3%80%8B/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -633,14 +633,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/%E3%80%8A%E9%A3%8E%E6%B5%81%E5%8E%BB%E3%80%8B/</loc>
+    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2022-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
