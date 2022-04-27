@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ustsking.top/post/eb19e2fa.html</loc>
+    <loc>https://blog.ustsking.top/post/ba595c75.html</loc>
     
     <lastmod>2022-04-27</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/post/ba595c75.html</loc>
+    <loc>https://blog.ustsking.top/post/eb19e2fa.html</loc>
     
     <lastmod>2022-04-27</lastmod>
     
@@ -499,14 +499,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/tags/Idea/</loc>
+    <loc>https://blog.ustsking.top/tags/Test/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/tags/Test/</loc>
+    <loc>https://blog.ustsking.top/tags/Idea/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -571,20 +571,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
-    <lastmod>2022-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Windows/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -592,14 +578,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Windows/%E5%8A%A0%E5%AF%86/</loc>
-    <lastmod>2022-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E7%96%AF%E7%8B%82%E7%9A%84%E6%83%B3%E6%B3%95/</loc>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -620,14 +599,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ustsking.top/categories/%E7%96%AF%E7%8B%82%E7%9A%84%E6%83%B3%E6%B3%95/%E4%BE%BF%E6%8D%B7%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>https://blog.ustsking.top/categories/%E7%96%AF%E7%8B%82%E7%9A%84%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -635,6 +607,20 @@
   
   <url>
     <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Linux%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2022-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ustsking.top/categories/%E7%AC%94%E8%AE%B0/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -649,6 +635,20 @@
   
   <url>
     <loc>https://blog.ustsking.top/categories/%E8%AF%BB%E4%B9%A6/</loc>
+    <lastmod>2022-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ustsking.top/categories/%E7%96%AF%E7%8B%82%E7%9A%84%E6%83%B3%E6%B3%95/%E4%BE%BF%E6%8D%B7%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ustsking.top/categories/%E6%8A%80%E6%9C%AF/Windows/%E5%8A%A0%E5%AF%86/</loc>
     <lastmod>2022-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
