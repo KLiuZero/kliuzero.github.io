@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Windows和Arch Linux双系统安装|同一张SSD下</title>
+      <link href="/post/f1eb152a.html"/>
+      <url>/post/f1eb152a.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>先挖个坑，日后慢慢整理补充，由于安装时无法截图，可能会通过手机拍照，可能观感不太好，见谅。</p></blockquote><h2 id="下载镜像">下载镜像</h2><div class="btns rounded center">            <a class="button" href='https://mirrors.nju.edu.cn/archlinux/iso/2022.05.01/' title='南大镜像'><i class='fas fa-download'></i>南大镜像</a><a class="button" href='https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/2022.05.01/' title='清华镜像'><i class='fas fa-download'></i>清华镜像</a>          </div><h2 id="刻录镜像">刻录镜像</h2><h3 id="使用balenaEtcher刻录">使用balenaEtcher刻录</h3><ol><li>下载软件 <div class="btns rounded center">            <a class="button" href='https://balena.io/etcher/' title='balenaEtcher官网'><i class='fas fa-download'></i>balenaEtcher官网</a>          </div></li><li>刻录镜像<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvBfa.png" alt="zvBfa.png" border="0"></li></ol><h3 id="使用Ventoy刻录">使用Ventoy刻录</h3><ol><li>下载Ventoy <div class="btns rounded center">            <a class="button" href='https://www.ventoy.net/en/download.html' title='Ventoy官网'><i class='fas fa-download'></i>Ventoy官网</a>          </div></li><li>使用Ventoy将U盘变为启动盘<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvz1i.png" alt="zvz1i.png" border="0"></li><li>将下载好的镜像移动到U盘的目录下即可</li></ol><h2 id="安装Arch-Liunx">安装Arch Liunx</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> Linux发行版 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>nmap美化</title>
       <link href="/post/f9e2e572.html"/>
       <url>/post/f9e2e572.html</url>
@@ -44,12 +71,16 @@
           
           <category> Linux发行版 </category>
           
+          <category> 网络安全 </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> Linux </tag>
+            
+            <tag> Security </tag>
             
         </tags>
       
@@ -813,9 +844,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
@@ -844,9 +875,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
@@ -1118,9 +1149,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
