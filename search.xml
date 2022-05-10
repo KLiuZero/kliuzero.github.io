@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>服务器中一些正在使用的Docker镜像</title>
+      <link href="/post/630b377.html"/>
+      <url>/post/630b377.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="在服务器中安装Docker">在服务器中安装Docker</h2><ol><li>安装BT面板 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Centos</span></span><br><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh ed8484bec</span><br><span class="line"></span><br><span class="line"><span class="comment"># Ubuntu/Deepin</span></span><br><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh ed8484bec</span><br><span class="line"></span><br><span class="line"><span class="comment"># Debian</span></span><br><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; bash install.sh ed8484bec</span><br><span class="line"></span><br><span class="line"><span class="comment"># 万能安装脚本</span></span><br><span class="line"><span class="keyword">if</span> [ -f /usr/bin/curl ];<span class="keyword">then</span> curl -sSO https://download.bt.cn/install/install_panel.sh;<span class="keyword">else</span> wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh;<span class="keyword">fi</span>;bash install_panel.sh ed8484bec</span><br></pre></td></tr></table></figure></li><li>在BT面板里的软件商店里安装Docker</li></ol><h2 id="Docker使用的镜像">Docker使用的镜像</h2><h3 id="容器图形化管理-Portainer">容器图形化管理-Portainer</h3><h3 id="脚本神器-青龙面板">脚本神器-青龙面板</h3><h3 id="云盘-Nextcloud">云盘-Nextcloud</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> Docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Arch Linux|安装前的小知识</title>
       <link href="/post/321635c3.html"/>
       <url>/post/321635c3.html</url>
@@ -35,7 +62,7 @@
       <link href="/post/f1eb152a.html"/>
       <url>/post/f1eb152a.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>先挖个坑，日后慢慢整理补充，由于安装时无法截图，可能会通过手机拍照，可能观感不太好，见谅。</p></blockquote><h2 id="下载镜像">下载镜像</h2><div class="btns rounded center">            <a class="button" href='https://mirrors.nju.edu.cn/archlinux/iso/2022.05.01/' title='南大镜像'><i class='fas fa-download'></i>南大镜像</a><a class="button" href='https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/2022.05.01/' title='清华镜像'><i class='fas fa-download'></i>清华镜像</a>          </div><h2 id="刻录镜像">刻录镜像</h2><h3 id="使用balenaEtcher刻录">使用balenaEtcher刻录</h3><ol><li>下载软件 <div class="btns rounded center">            <a class="button" href='https://balena.io/etcher/' title='balenaEtcher官网'><i class='fas fa-download'></i>balenaEtcher官网</a>          </div></li><li>刻录镜像<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvBfa.png" alt="zvBfa.png" border="0"></li></ol><h3 id="使用Ventoy刻录">使用Ventoy刻录</h3><ol><li>下载Ventoy <div class="btns rounded center">            <a class="button" href='https://www.ventoy.net/en/download.html' title='Ventoy官网'><i class='fas fa-download'></i>Ventoy官网</a>          </div></li><li>使用Ventoy将U盘变为启动盘<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvz1i.png" alt="zvz1i.png" border="0"></li><li>将下载好的镜像移动到U盘的目录下即可</li></ol><h2 id="安装Arch-Liunx">安装Arch Liunx</h2>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>先挖个坑，日后慢慢整理补充，由于安装时无法截图，可能会通过手机拍照，可能观感不太好，见谅。</p></blockquote><h2 id="下载镜像">下载镜像</h2><div class="btns rounded center">            <a class="button" href='https://mirrors.nju.edu.cn/archlinux/iso/2022.05.01/' title='南大镜像'><i class='fas fa-download'></i>南大镜像</a><a class="button" href='https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/2022.05.01/' title='清华镜像'><i class='fas fa-download'></i>清华镜像</a>          </div><h2 id="刻录镜像">刻录镜像</h2><h3 id="使用balenaEtcher刻录">使用balenaEtcher刻录</h3><ol><li>下载软件 <div class="btns rounded center">            <a class="button" href='https://balena.io/etcher/' title='balenaEtcher官网'><i class='fas fa-download'></i>balenaEtcher官网</a>          </div></li><li>刻录镜像<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvBfa.png" alt="zvBfa.png" border="0"></li></ol><h3 id="使用Ventoy刻录">使用Ventoy刻录</h3><ol><li>下载Ventoy <div class="btns rounded center">            <a class="button" href='https://www.ventoy.net/en/download.html' title='Ventoy官网'><i class='fas fa-download'></i>Ventoy官网</a>          </div></li><li>使用Ventoy将U盘变为启动盘<br><img no-lazy src="https://i.imgtg.com/2022/05/05/zvz1i.png" alt="zvz1i.png" border="0"></li><li>将下载好的镜像移动到U盘的目录下即可</li></ol><h2 id="安装Arch-Liunx">安装Arch Liunx</h2><blockquote><p>如果想要图像化的安装，可以去使用基于Debain和Centos的发行版，会提供图像化安装界面</p></blockquote>]]></content>
       
       
       <categories>
@@ -96,9 +123,9 @@
           
           <category> 技术 </category>
           
-          <category> Linux发行版 </category>
-          
           <category> 网络安全 </category>
+          
+          <category> Linux发行版 </category>
           
       </categories>
       
