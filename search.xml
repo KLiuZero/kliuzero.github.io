@@ -4,37 +4,6 @@
   
     
     <entry>
-      <title>翼龙面板的搭建教程</title>
-      <link href="/post/ba17d302.html"/>
-      <url>/post/ba17d302.html</url>
-      
-        <content type="html"><![CDATA[<h1>写在前面</h1><p>目前面板搭建成功了，但是登录时出现问题了，解决之后在重新更新补完</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 游戏配置 </category>
-          
-          <category> 技术 </category>
-          
-          <category> Linux服务器 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Games </tag>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>ArchLinux安装配置</title>
       <link href="/post/9798bff7.html"/>
       <url>/post/9798bff7.html</url>
@@ -208,9 +177,9 @@
           
           <category> 技术 </category>
           
-          <category> Linux发行版 </category>
-          
           <category> 网络安全 </category>
+          
+          <category> Linux发行版 </category>
           
       </categories>
       
@@ -983,9 +952,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
@@ -1014,9 +983,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
@@ -1288,9 +1257,9 @@
       
         <tags>
             
-            <tag> Games </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> Games </tag>
             
         </tags>
       
