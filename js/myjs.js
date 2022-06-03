@@ -94,3 +94,28 @@ for (var i = 0; i < card_category_list.length; i++) {
     card_category_list[i].previousSibling.innerHTML +=
         '<i class="fa fa-chevron-up menus-expand  menus-closed" aria-hidden="true" style="margin-left:20px;" onclick="toggle(this)"></i>';
 }
+
+function openSearch() {
+    document.body.style.cssText = 'width: 100%;overflow: hidden'
+    document.querySelector('#local-search .search-dialog').style.display = 'block'
+    document.querySelector('#local-search-input input').focus()
+    btf.fadeIn(document.getElementById('search-mask'), 0.5)
+    if (!loadFlag) {
+        search(GLOBAL_CONFIG.localSearch.path)
+        loadFlag = true
+    }
+    // shortcut: ESC
+    document.addEventListener('keydown', function f (event) {
+        if (event.code === 'Escape') {
+            closeSearch()
+            document.removeEventListener('keydown', f)
+        }
+    })
+}
+
+//关闭当前页面
+function Logout(){
+    window.opener=null;
+    window.open('','_self');
+    window.close();
+}
