@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const isSnackbar = GLOBAL_CONFIG.Snackbar !== undefined
 
   function translateText (txt) {
-    if (txt === '' || txt == null) return ''
+    if (txt === '' || txt === null) return ''
     if (currentEncoding === 1 && targetEncoding === 2) return Simplized(txt)
     else if (currentEncoding === 2 && targetEncoding === 1) { return Traditionalized(txt) } else return txt
   }
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
         '||BR|HR|'.indexOf('|' + obj.tagName + '|') > 0 ||
       obj === translateButtonObject
       ) { continue }
-      if (obj.title !== '' && obj.title != null) { obj.title = translateText(obj.title) }
-      if (obj.alt !== '' && obj.alt != null) obj.alt = translateText(obj.alt)
-      if (obj.placeholder !== '' && obj.placeholder != null) obj.placeholder = translateText(obj.placeholder)
+      if (obj.title !== '' && obj.title !== null) { obj.title = translateText(obj.title) }
+      if (obj.alt !== '' && obj.alt !== null) obj.alt = translateText(obj.alt)
+      if (obj.placeholder !== '' && obj.placeholder !== null) obj.placeholder = translateText(obj.placeholder)
       if (
         obj.tagName === 'INPUT' &&
       obj.value !== '' &&
